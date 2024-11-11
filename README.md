@@ -10,7 +10,7 @@ This project is an Android app built with Java, designed to enable users to play
 - WebView Integration**: Games run smoothly in a WebView, offering native-like performance within the app.
 
 Screen Recording
-Check out a screen recording of the app in action here#https://drive.google.com/file/d/1X3l_IWd-K8V5dB8P1lKiMAwhTAjFRo7I/view?usp=sharing
+Check out a screen recording of the app in action here https://drive.google.com/file/d/1X3l_IWd-K8V5dB8P1lKiMAwhTAjFRo7I/view?usp=sharing
 . This recording showcases the app's interface, download functionality, and gameplay both online and offline.
 
 
