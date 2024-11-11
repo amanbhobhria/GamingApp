@@ -1,11 +1,13 @@
 package com.example.k4mediaassingment;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.util.Log;
 import android.webkit.WebSettings;
 import android.webkit.WebViewClient;
+import android.window.OnBackInvokedDispatcher;
 
 import com.example.k4mediaassingment.databinding.ActivityMainBinding;
 import com.example.k4mediaassingment.databinding.ActivityWebViewBinding;
@@ -39,9 +41,12 @@ public class WebViewActivity extends AppCompatActivity {
         Log.d("MainActivity11", "Game URL: " + gameUrl);
         }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        finish();
 
-
-
+    }
 
     private void loadGame(String url) {
         binding.webView.loadUrl(url);

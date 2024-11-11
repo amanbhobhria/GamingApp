@@ -34,7 +34,7 @@
         <!-- Game 1 -->
         <LinearLayout
             android:layout_width="0dp"
-            android:layout_height="160dp"
+            android:layout_height="172dp"
             android:orientation="vertical"
             android:layout_margin="8dp"
             android:layout_columnWeight="1"
@@ -57,7 +57,7 @@
         <!-- Game 2 -->
         <LinearLayout
             android:layout_width="0dp"
-            android:layout_height="160dp"
+            android:layout_height="172dp"
             android:background="@drawable/rounded_corners_background"
             android:orientation="vertical"
             android:layout_margin="8dp"
@@ -79,7 +79,7 @@
         <!-- Game 3 -->
         <RelativeLayout
             android:layout_width="0dp"
-            android:layout_height="164dp"
+            android:layout_height="172dp"
             android:orientation="vertical"
             android:layout_margin="8dp"
             android:padding="12dp"
@@ -112,13 +112,26 @@
                 android:src="@drawable/baseline_save_alt_24"
                 android:tint="@color/white"
                 tools:ignore="UseAppTint" />
+            <Button
+                android:id="@+id/playBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Play"
+                android:visibility="gone"
+                android:layout_marginTop="8dp"
+                android:textSize="14sp"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:background="@drawable/play_btn_shape"
+                android:layout_below="@+id/imageGame3"
+                />
 
         </RelativeLayout>
 
         <!-- Game 4 -->
         <RelativeLayout
             android:layout_width="0dp"
-            android:layout_height="164dp"
+            android:layout_height="172dp"
             android:background="@drawable/rounded_corners_background"
             android:orientation="vertical"
             android:layout_margin="8dp"

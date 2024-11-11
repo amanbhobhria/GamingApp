@@ -183,8 +183,9 @@ public class MainActivity extends AppCompatActivity {
                 if (indexPath.exists()) {
                     binding.downloadBtn3.setVisibility(View.GONE);
                     binding.progressBar.setVisibility(View.GONE);
+                    binding.playBtn.setVisibility(View.VISIBLE);
                     Toast.makeText(MainActivity.this, "Game Downloaded Successfully", Toast.LENGTH_SHORT).show();
-                    binding.imageGame3.setOnClickListener(v -> {
+                    binding.playBtn.setOnClickListener(v -> {
                         loadGame("file://" + indexPath.getAbsolutePath());
                         Toast.makeText(MainActivity.this, "Loading Game", Toast.LENGTH_SHORT).show();
                     });
